@@ -67,6 +67,20 @@ function scrollUp(){
 
 window.addEventListener('scroll', scrollUp);
 
+/*=============== POPUP FORM ===============*/
+
+$(document).ready(function() {
+    $('.popUp').click(function() {
+      $('.popup-wrapper').addClass('active');
+    });
+  
+    $('.close_btn').click(function() {
+        $('.popup-wrapper').removeClass('active');
+      });
+  });
+
+
+
 /*=============== DARK LIGHT THEME ===============*/
 
 const themeButton = document.getElementById('theme-button')
