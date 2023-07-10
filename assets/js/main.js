@@ -79,8 +79,6 @@ $(document).ready(function() {
       });
   });
 
-
-
 /*=============== DARK LIGHT THEME ===============*/
 
 const themeButton = document.getElementById('theme-button')

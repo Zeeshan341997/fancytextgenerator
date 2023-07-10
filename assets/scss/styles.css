@@ -382,7 +382,7 @@ body.dark-theme {
 .app__buttons {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (max-content)[2];
+  /* -ms-grid-columns: (max-content)[2]; */
       grid-template-columns: repeat(2, -webkit-max-content);
       grid-template-columns: repeat(2, max-content);
   -webkit-box-pack: center;
@@ -553,7 +553,7 @@ body.dark-theme {
   .app__container,
   .contact__container,
   .footer__container {
-    -ms-grid-columns: (1fr)[2];
+    /* -ms-grid-columns: (1fr)[2]; */
         grid-template-columns: repeat(2, 1fr);
   }
   .about__container,
@@ -635,7 +635,7 @@ body.dark-theme {
             column-gap: 6rem;
   }
   .services__container {
-    -ms-grid-columns: (1fr)[3];
+    /* -ms-grid-columns: (1fr)[3]; */
         grid-template-columns: repeat(3, 1fr);
   }
   .contact__container {
@@ -643,7 +643,7 @@ body.dark-theme {
         grid-template-columns: 3fr 1.5fr 1.25fr;
   }
   .footer__container {
-    -ms-grid-columns: (1fr)[5];
+    /* -ms-grid-columns: (1fr)[5]; */
         grid-template-columns: repeat(5, 1fr);
   }
   .footer__social {
